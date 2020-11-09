@@ -1,0 +1,13 @@
+@startuml
+
+class Customer
+class Car
+class Dealer
+
+Customer --|> Car
+Dealer ---* Car
+
+
+
+
+@enduml

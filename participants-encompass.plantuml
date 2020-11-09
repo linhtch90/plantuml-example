@@ -1,0 +1,16 @@
+@startuml
+
+box "Participants Encompass" #LightBlue
+	participant Bob
+	participant Alice
+end box
+participant Other
+
+Bob -> Alice : Bob to Alice
+Alice -> Other : Alice to Other
+
+
+
+
+
+@enduml

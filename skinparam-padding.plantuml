@@ -1,0 +1,19 @@
+@startuml
+
+skinparam ParticipantPadding 20
+skinparam boxPadding 10
+
+box "Box 1"
+	participant Alice
+	participant Bob
+end box
+
+box "Box 2"
+	participant Foo
+	participant Bar
+end box
+
+Alice -> Foo : Hello Foo
+Bob -> Outside : Hello there
+
+@enduml

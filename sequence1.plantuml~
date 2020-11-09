@@ -1,0 +1,11 @@
+@startuml
+
+One --|> Two : Hello Two
+
+Two --|> Three : Hello Three
+
+Three --|> One : Back to you
+
+
+
+@enduml

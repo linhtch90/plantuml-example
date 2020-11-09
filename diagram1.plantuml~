@@ -1,0 +1,5 @@
+@startuml
+developer -> emacs: "Draw me a diagram"
+emacs -> developer: "Here you are, sir"
+developer -> world: "Hello World"
+@enduml

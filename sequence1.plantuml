@@ -1,0 +1,18 @@
+@startuml
+
+class One {
+	+String: Prop1
+	-Int: Serie
+	+count()
+	#call()
+}
+
+One --|> Two : Hello Two
+
+Two --|> Three : Hello Three
+
+Three --|> One : Back to you
+
+
+
+@enduml
